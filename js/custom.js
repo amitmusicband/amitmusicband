@@ -27,7 +27,7 @@ $('.nav li a').bind('click', function(e){
 $(document).ready(function(){
 	
 	var obj = document.createElement("audio");
-	obj.src = "../HTML/audio/dilkadariya.MPEG";
+	obj.src = "https://amitmusicband.github.io/HTML/audio/dilkadariya.MPEG";
 	obj.volume = 1;
 	obj.autoPlay = true;
 	obj.preLoad = true;       
